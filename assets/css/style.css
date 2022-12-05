@@ -794,15 +794,18 @@ a:hover {
 #about {
 
 }
+.aboutme_description{
+    max-width: 90%;
+}
 
 .aboutMe {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .lead {
-  font-family: 'roboto', sans-serif;
-  font-size: 1.2rem;
+  /* font-family: 'roboto', sans-serif; */
+  font-size: 1.3rem;
 }
 
 /*--------------------------------------------------------------
@@ -940,11 +943,6 @@ a:hover {
   height: auto;
 }
 
-#sass {
-  width: 9rem;
-  height: auto;
-  padding-top: 0.5rem;
-}
 
 #bootstrap {
   width: 7.5rem;
@@ -953,12 +951,6 @@ a:hover {
   padding-left: 0.5rem;
 }
 
-#figma {
-  width: 6.5rem;
-  height: auto;
-  padding-top: 0.9rem;
-  padding-left: 0.5rem;
-}
 
 #photoshop {
   width: 6.6rem;
@@ -967,12 +959,16 @@ a:hover {
   padding-left: 0.5rem;
 }
 
-#illustrator {
+#react {
   width: 6.6rem;
   height: auto;
   padding-top: 0.9rem;
   padding-left: 0.5rem;
+
+
 }
+
+
 
 /* END OF SKILLS SECTION */
 
